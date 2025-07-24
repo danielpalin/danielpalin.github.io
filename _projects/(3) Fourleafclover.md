@@ -1,5 +1,5 @@
 ---
-name: Four Leaf Clover Finder
+name: Four-Leaf Clover Classifier (ResNet18 + PyTorch)
 tools: [PyTorch, OpenCV, Python, CNNs, Machine Learning]
 image: /pics/clover-field_full_width.jpg
 description: >
