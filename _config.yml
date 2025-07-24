@@ -1,9 +1,7 @@
 ### Site Settings ###
 title               : Daniel Palin
 description         : >-
-                      Making autonomous robots 🤖
-                      until my mom doesn't have to
-                      cook anymore.
+                      Student learning how to make the best robots 🤖
 baseurl             : ""            # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : danielwp22/danielpalin.github.io      # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : yousinix/portfolYOU
@@ -20,12 +18,13 @@ nav_exclude:                                            # The following paths ar
   - pages/tags.html
   - pages/404.html
   - pages/index.md
+  - pages/blog.html
 
 
 ### Author Info ###
 author:
   name              : Daniel
-  image             : https://media.istockphoto.com/id/185284489/photo/orange.jpg?s=612x612&w=0&k=20&c=m4EXknC74i2aYWCbjxbzZ6EtRaJkdSJNtekh4m1PspE=
+  image             : /sitting3.png
 # dribbble          : your_username
   email             : daniel.palin@mail.utoronto.ca
   github            : danielwp22

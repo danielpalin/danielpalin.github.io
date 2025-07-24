@@ -1,17 +1,12 @@
 - title: Student, UofT Physics
   from: 2021
   to: 2025
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  description: Graduated from University of Toronto with an  Major in Physics and a Minor in
+               Chemistry and Education Studies. 
 
 - title: Mech Eng Masters Student, Queen's University
   from: 2025
   to: present
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  description: Pursuing a Mechanical and Materials Engineering MEng Masters at Queen's University
+                starting in Fall 2025. My goal is to learn more about control in autonomous humanoid
+                robots. 
