@@ -1,12 +1,12 @@
-- title: Student, UofT Physics
-  from: 2021
-  to: 2025
-  description: Graduated from University of Toronto with an  Major in Physics and a Minor in
-               Chemistry and Education Studies. 
-
 - title: Mech Eng Masters Student, Queen's University
   from: 2025
   to: present
   description: Pursuing a Mechanical and Materials Engineering MEng Masters at Queen's University
                 starting in Fall 2025. My goal is to learn more about control in autonomous humanoid
                 robots. 
+
+- title: Student, UofT Physics
+  from: 2021
+  to: 2025
+  description: Graduated from University of Toronto with an  Major in Physics and a Minor in
+               Chemistry and Education Studies.   

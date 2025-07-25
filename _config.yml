@@ -2,7 +2,7 @@
 title               : Daniel Palin
 description         : >-
                       I build robots that think, move,
-                       and occasionally bump into furniture. 🤖
+                       and occasionally bump into furniture.
 baseurl             : ""            # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : danielwp22/danielpalin.github.io      # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : yousinix/portfolYOU
@@ -12,7 +12,6 @@ open_new_tab        : false                    # Opens external URLs in new tab 
 ### Plugins ###
 plugins:
   - jemoji
-
 
 ### Navbar Settings ###
 nav_exclude:                                            # The following paths are excluded from navbar
