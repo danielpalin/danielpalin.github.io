@@ -8,7 +8,8 @@ weight: 3
 # **About Me**
 
 Hi I am **{{ site.author.name }}** :wave:,<br>
-I'm a student about to go into my masters who has a passion for autonomous robotics. I've been self studying reinforcement learning and working on physical ROS 2 based robotics projects, with the hope of one day contributing to autonomous humanoid robots deployed in homes. 
+I'm a student about to go into my masters who has a passion for autonomous robotics. I've been self studying reinforcement learning and working on physical ROS 2 based robotics projects, with the hope of one day contributing to autonomous humanoid robots deployed in homes.
+[View my resume here.](https://docs.google.com/document/d/1MKaCypnkLDicyyGwNI7jQkzqe_b90EoNG1qmt_YY_YY/edit?usp=sharing)
 
 <div class="row">
 {% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
