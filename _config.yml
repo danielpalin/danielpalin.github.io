@@ -4,8 +4,8 @@ description         : >-
                       I build robots that think, move,
                        and occasionally bump into furniture.
 baseurl             : ""            # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
-repository          : danielwp22/danielpalin.github.io      # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
-remote_theme        : yousinix/portfolYOU
+# repository          : danielwp22/danielpalin.github.io      # Disabled due to SSL issues - re-enable if needed
+# remote_theme        : yousinix/portfolYOU  # Disabled - using local theme files instead
 open_new_tab        : false                    # Opens external URLs in new tab (works for posts, projects and navbar only)
 
 
