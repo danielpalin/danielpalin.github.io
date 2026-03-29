@@ -3,7 +3,7 @@ name: Autonomous Competition Robot (QKRT)
 tools: [ROS 2, SLAM, Navigation, Sensor Fusion, Gazebo]
 image: /pics/qkrt_bot_2.png
 description: >
-  Technical lead for a 14-person team building an autonomous sentry robot for the ARC competition; integrated perception, planning, and control with a ROS 2 navigation stack fusing camera, LiDAR, IMU, and wheel encoder data, validated in Gazebo.
+  Autonomous sentry robot for the ARC competition with a ROS 2 navigation stack fusing camera, LiDAR, IMU, and wheel encoder data, validated in Gazebo with SLAM, planning, and obstacle avoidance.
 external_url: https://github.com/qkrt-rm/qkrt-nav
 ---
 
