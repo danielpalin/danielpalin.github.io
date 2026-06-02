@@ -1,3 +1,60 @@
+// Minimal updates list (used on home page)
+.updates-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.update-item {
+  padding: 14px 0 14px 16px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  position: relative;
+
+  [data-theme="dark"] & {
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+  }
+
+  &:last-child {
+    border-bottom: 0;
+  }
+
+  &::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    top: 15px;
+    color: $primary;
+    font-size: 1.2rem;
+    line-height: 1;
+  }
+
+  .update-header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0 10px;
+    margin-bottom: 4px;
+  }
+
+  .update-title {
+    font-weight: 600;
+    font-size: 1.05rem;
+  }
+
+  .update-date {
+    font-size: 0.9rem;
+    color: $secondary;
+    white-space: nowrap;
+  }
+
+  .update-desc {
+    font-size: 1rem;
+    line-height: 1.55;
+    margin: 0;
+  }
+}
+
+// Full timeline (used on About page)
 .timeline-body {
   position: relative;
   border-radius: 0 $rounded-borders $rounded-borders 0;

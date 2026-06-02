@@ -1,5 +1,6 @@
 ---
 name: Imitation Learning for Walking Robots (Behavioral Cloning & DAgger, MuJoCo)
+date: 2025-08-01
 tools: [Python, Imitation Learning, Deep Learning, MuJoCo sim]
 image: /pics/antwalkingshort2_optimized.gif
 description: Two MuJoCo walking agents, Ant and 2D Walker, were trained to perform locomotion using both Behavioural Cloning and DAgger cloning using provided expert policies.

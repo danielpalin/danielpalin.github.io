@@ -1,5 +1,6 @@
 ---
 name: Four-Leaf Clover Classifier (ResNet18 + PyTorch)
+date: 2025-01-01
 tools: [PyTorch, OpenCV, Python, CNNs, Machine Learning]
 image: /pics/clover-field_full_width.jpg
 description: >

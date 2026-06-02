@@ -12,8 +12,13 @@
 
 <body class="h-100 d-flex flex-column">
 
-  <main class="flex-shrink-0 container mt-5">
-    {% include navbar.html %}
+  <div class="fixed-top navbar-sticky-bg">
+    <div class="container">
+      {% include navbar.html %}
+    </div>
+  </div>
+
+  <main class="flex-shrink-0 container" style="padding-top: 4.5rem;">
     {{ content }}
   </main>
   {% include footer.html %}

@@ -88,7 +88,9 @@
 #ou { animation-duration: 6s; transform-origin: center; transform-box: fill-box; }
 
 @keyframes four-anim { 50% { transform: scale(0.98); } }
-html { padding-left: calc(100vw - 100%); }
+html { padding-left: calc(100vw - 100%); scroll-behavior: smooth; }
+
+h4[id] { scroll-margin-top: 70px; }
 
 body { font-family: "Poppins", sans-serif; }
 
@@ -155,6 +157,17 @@ body { font-family: "Poppins", sans-serif; }
 .project.card { border-radius: 15px; text-decoration: none !important; margin: 10px auto; transition: transform 400ms; }
 .project.card .card-img-top { border-radius: 15px 15px 0 0; }
 .project.card:hover:not(.post) { transform: translateY(-8px); box-shadow: -2px 8px 40px -12px rgba(0, 0, 0, 0.24); }
+
+.updates-list { list-style: none; padding: 0; margin: 0; }
+
+.update-item { padding: 14px 0 14px 16px; border-bottom: 1px solid rgba(0, 0, 0, 0.1); position: relative; }
+[data-theme="dark"] .update-item { border-bottom-color: rgba(255, 255, 255, 0.1); }
+.update-item:last-child { border-bottom: 0; }
+.update-item::before { content: "•"; position: absolute; left: 0; top: 15px; color: #007bff; font-size: 1.2rem; line-height: 1; }
+.update-item .update-header { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0 10px; margin-bottom: 4px; }
+.update-item .update-title { font-weight: 600; font-size: 1.05rem; }
+.update-item .update-date { font-size: 0.9rem; color: #6c757d; white-space: nowrap; }
+.update-item .update-desc { font-size: 1rem; line-height: 1.55; margin: 0; }
 
 .timeline-body { position: relative; border-radius: 0 15px 15px 0; padding: 5px 0; }
 .timeline-body:after { content: ""; width: 4px; height: 100%; background-color: #007bff; position: absolute; left: -4px; top: 0; }
@@ -368,6 +381,11 @@ body { font-family: "Poppins", sans-serif; }
 
 [data-theme="light"] .bg-themed { background-color: #f8f9fa; }
 [data-theme="dark"] .bg-themed { background-color: #343a40; }
+
+[data-theme="light"] .navbar-sticky-bg { background-color: #ffffff; }
+[data-theme="dark"] .navbar-sticky-bg { background-color: #17191a; }
+[data-theme="light"] .navbar-sticky-bg { border-bottom: 1px solid rgba(0, 0, 0, 0.08); }
+[data-theme="dark"] .navbar-sticky-bg { border-bottom: 1px solid rgba(255, 255, 255, 0.08); }
 
 [data-theme="dark"] { /* Comment */ /* Error */ /* Escape */ /* Generic */ /* Keyword */ /* Literal */ /* Name */ /* Operator */ /* Other */ /* Punctuation */ /* Comment.Hashbang */ /* Comment.Multiline */ /* Comment.Preproc */ /* Comment.PreprocFile */ /* Comment.Single */ /* Comment.Special */ /* Generic.Deleted */ /* Generic.Emph */ /* Generic.Error */ /* Generic.Heading */ /* Generic.Inserted */ /* Generic.Output */ /* Generic.Prompt */ /* Generic.Strong */ /* Generic.Subheading */ /* Generic.Traceback */ /* Keyword.Constant */ /* Keyword.Declaration */ /* Keyword.Namespace */ /* Keyword.Pseudo */ /* Keyword.Reserved */ /* Keyword.Type */ /* Literal.Date */ /* Literal.Number */ /* Literal.String */ /* Name.Attribute */ /* Name.Builtin */ /* Name.Class */ /* Name.Constant */ /* Name.Decorator */ /* Name.Entity */ /* Name.Exception */ /* Name.Function */ /* Name.Label */ /* Name.Namespace */ /* Name.Other */ /* Name.Property */ /* Name.Tag */ /* Name.Variable */ /* Operator.Word */ /* Text.Whitespace */ /* Literal.Number.Bin */ /* Literal.Number.Float */ /* Literal.Number.Hex */ /* Literal.Number.Integer */ /* Literal.Number.Oct */ /* Literal.String.Affix */ /* Literal.String.Backtick */ /* Literal.String.Char */ /* Literal.String.Delimiter */ /* Literal.String.Doc */ /* Literal.String.Double */ /* Literal.String.Escape */ /* Literal.String.Heredoc */ /* Literal.String.Interpol */ /* Literal.String.Other */ /* Literal.String.Regex */ /* Literal.String.Single */ /* Literal.String.Symbol */ /* Name.Builtin.Pseudo */ /* Name.Function.Magic */ /* Name.Variable.Class */ /* Name.Variable.Global */ /* Name.Variable.Instance */ /* Name.Variable.Magic */ /* Literal.Number.Integer.Long */ }
 [data-theme="dark"] body { background-color: #17191a; color: rgba(255, 255, 255, 0.9); }

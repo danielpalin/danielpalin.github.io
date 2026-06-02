@@ -1,5 +1,6 @@
 ---
 name: Rainfall Prediction using Machine Learning
+date: 2024-05-01
 tools: [Scikit learn, Python, Machine Learning]
 image: /pics/rainfall.jpg
 description: This project predicts rainfall using machine learning models trained on weather data from the Australian Bureau of Meteorology. The pipeline includes preprocessing, feature selection, and model training.

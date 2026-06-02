@@ -19,6 +19,8 @@ nav_exclude:                                            # The following paths ar
   - pages/404.html
   # - pages/index.md
   - pages/blog.html
+  - pages/projects.html
+  - pages/about.md
 
 
 ### Author Info ###
@@ -26,7 +28,7 @@ author:
   name              : Daniel
   image             : /pics/ingenuity2.png
 # dribbble          : your_username
-  email             : daniel.palin@mail.utoronto.ca
+  email             : danwillpalin@gmail.com
   github            : danielwp22
 # gitlab            : your_username
 # instagram         : your_username

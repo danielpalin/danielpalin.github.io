@@ -1,5 +1,6 @@
 ---
 name: Knee-Impairment RL Gait Policy
+date: 2026-02-01
 tools: [Reinforcement Learning, PPO, NVIDIA Isaac Lab, Robotics, Simulation]
 image: /pics/PPO_gait_improvement.gif
 description: >

@@ -1,0 +1,15 @@
+<div class="row justify-content-center">
+  <div class="col-lg-9 col-md-10">
+    <ul class="updates-list">
+      {% for item in site.data.timeline %}
+      <li class="update-item wow animated fadeIn" data-wow-delay=".1s">
+        <div class="update-header">
+          <span class="update-title">{{ item.title }}</span>
+          <span class="update-date">{{ item.from }}{% if item.to %} – {{ item.to }}{% endif %}</span>
+        </div>
+        <p class="update-desc">{{ item.description }}</p>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>

@@ -1,5 +1,7 @@
 ---
 name: Motion Planning Algorithm Comparison for 7-DOF Robot Manipulators
+date: 2025-12-01
+research: true
 tools: [AI, Manipulators, Isaac Sim, AWS, Docker ]
 image: /pics/isaacgym-000.gif
 description: >

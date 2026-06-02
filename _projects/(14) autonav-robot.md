@@ -1,5 +1,6 @@
 ---
 name: Autonomous Competition Robot (QKRT)
+date: 2026-03-01
 tools: [ROS 2, SLAM, Navigation, Sensor Fusion, Gazebo]
 image: /pics/qkrt_bot_2.png
 description: >

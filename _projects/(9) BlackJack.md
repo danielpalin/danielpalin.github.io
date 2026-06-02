@@ -1,5 +1,6 @@
 ---
 name: Blackjack Bot using Deep Q-Learning
+date: 2025-06-01
 tools: [PyTorch, Python, Neural Networks, OpenAI Gym, Deep Learning, Q-Learning]
 image: /pics/blackjackgraph.png
 description: >

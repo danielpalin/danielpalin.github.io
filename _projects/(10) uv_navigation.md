@@ -1,5 +1,7 @@
 ---
 name: Bio-Inspired UV Navigation System for Autonomous Robots
+date: 2025-12-01
+research: true
 tools: [Control, Arduino, 3D Printing, Circuits, Sensors]
 image: /pics/IMG_3539 (2).gif
 description: >

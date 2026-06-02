@@ -31,3 +31,8 @@
   @include themed(background-color, $light, $dark);
 }
 
+.navbar-sticky-bg {
+  @include themed(background-color, #ffffff, #17191a);
+  @include themed(border-bottom, 1px solid rgba(0,0,0,0.08), 1px solid rgba(255,255,255,0.08));
+}
+

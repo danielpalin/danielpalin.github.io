@@ -34,7 +34,7 @@
   <script src="/assets/js/theme.js"></script>
 
   <!-- Font Awesome CDN -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
   <!-- Bootstrap CSS CDN -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
@@ -50,8 +50,9 @@
 
 <body class="h-100 d-flex flex-column">
 
-  <main class="flex-shrink-0 container mt-5">
-    <nav class="navbar navbar-expand-lg navbar-themed">
+  <div class="fixed-top navbar-sticky-bg">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-themed">
 
   <a class="navbar-brand" href="/"><h5><b>Daniel Palin</b></h5></a>
 
@@ -62,17 +63,22 @@
   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div class="navbar-nav ml-auto"><a class="nav-item nav-link active" href="/"></a>
 
-      <a class="nav-item nav-link " href="/projects/">Projects</a>
-
-      <a class="nav-item nav-link " href="/about/">About</a>
-
       
+
+      <a class="nav-item nav-link" href="/#about">About</a>
+      <a class="nav-item nav-link" href="/#updates">Updates</a>
+      <a class="nav-item nav-link" href="/#research">Research</a>
+      <a class="nav-item nav-link" href="/#projects">Projects</a>
 
       <span id="theme-toggler" class="nav-item nav-link" role="button" onclick="toggleTheme()"></span>
     </div>
   </div>
 
 </nav>
+    </div>
+  </div>
+
+  <main class="flex-shrink-0 container" style="padding-top: 4.5rem;">
     <div class="row justify-content-center align-items-center p-4">
   <div class="col-lg-4 col-md-6 text-center mt-4">
 
@@ -87,8 +93,332 @@
     <p class="text-muted wow animated slideInUp" data-wow-delay=".15s">I build robots that think, move,
  and occasionally bump into furniture.</p>
 
+    <div class="mt-3 wow animated fadeIn" data-wow-delay=".2s">
+      <a href="https://github.com/danielwp22" class="social mx-2" target="_blank" rel="noopener" style="color:#6c757d" title="GitHub" onmouseover="this.style.color='#333333'" onmouseout="this.style.color='#6c757d'">
+        <i class="fab fa-github fa-2x"></i>
+      </a>
+      <a href="https://x.com/danielwpalin" class="social mx-2" target="_blank" rel="noopener" style="color:#6c757d" title="Twitter / X" onmouseover="this.style.color='#1da1f2'" onmouseout="this.style.color='#6c757d'">
+        <i class="fa-brands fa-x-twitter fa-2x"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/daniel-w-palin/" class="social mx-2" target="_blank" rel="noopener" style="color:#6c757d" title="LinkedIn" onmouseover="this.style.color='#007bb5'" onmouseout="this.style.color='#6c757d'">
+        <i class="fab fa-linkedin-in fa-2x"></i>
+      </a>
+      <a href="mailto:danwillpalin@gmail.com" class="social mx-2" style="color:#6c757d" title="Email" onmouseover="this.style.color='#db4437'" onmouseout="this.style.color='#6c757d'">
+        <i class="fas fa-envelope fa-2x"></i>
+      </a>
+    </div>
+    <div class="mt-2 wow animated fadeIn" data-wow-delay=".25s">
+      <a href="https://danielwp22.github.io/papers-pdf/daniel_palin_resume_june.pdf" class="text-muted" target="_blank" rel="noopener" style="font-size:1.1rem;" onmouseover="this.style.color='#e74c3c'" onmouseout="this.style.color=''">
+        Resume
+      </a>
+    </div>
+
   </div>
 </div>
+
+<hr class="my-4" />
+
+<h4 id="about" class="text-center mt-2 mb-3">About Me</h4>
+<div class="row justify-content-center text-center">
+  <div class="col-lg-8 col-md-10 wow animated fadeIn" data-wow-delay=".1s" style="font-size:1.08rem; line-height:1.7;">
+    <p class="mb-3">
+      I'm a Mechanical Engineering master's student at Queen's University with a focus on
+      autonomous robotics, ROS&nbsp;2 systems, reinforcement learning, and hands-on robot hardware. I'm also
+      a robotics engineer intern at <a href="https://mbodi.ai" target="_blank" rel="noopener">Mbodi AI</a>,
+      where I work on controls for bimanual pick-and-place systems in manufacturing.
+    </p>
+    <p>
+      In my spare time I enjoy chess, reading, working out, running, and video games.
+    </p>
+  </div>
+</div>
+
+<hr class="my-4" />
+
+<h4 id="updates" class="text-center mt-2 mb-3">Updates</h4>
+<div class="row justify-content-center">
+  <div class="col-lg-9 col-md-10">
+    <ul class="updates-list">
+      
+      <li class="update-item wow animated fadeIn" data-wow-delay=".1s">
+        <div class="update-header">
+          <span class="update-title">Robotics Engineer Intern, Mbodi AI</span>
+          <span class="update-date">May 2026 – present</span>
+        </div>
+        <p class="update-desc">Implementing a controls system into an AI software stack for bimanual pick-and-place in manufacturing.</p>
+      </li>
+      
+      <li class="update-item wow animated fadeIn" data-wow-delay=".1s">
+        <div class="update-header">
+          <span class="update-title">MEng Mechanical and Materials Engineering, Queen's University</span>
+          <span class="update-date">2025 – present</span>
+        </div>
+        <p class="update-desc">Mechanical and Materials Engineering master's student. Maintaining a 4.3/4.3 GPA and serving as technical lead for the autonomous navigation team on the Queen's Knights Robotics Team.</p>
+      </li>
+      
+      <li class="update-item wow animated fadeIn" data-wow-delay=".1s">
+        <div class="update-header">
+          <span class="update-title">BSc Physics, University of Toronto</span>
+          <span class="update-date">2021 – 2025</span>
+        </div>
+        <p class="update-desc">Graduated with a major in Physics and minors in Chemistry and Education Studies.</p>
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+<hr class="my-4" />
+
+<h4 id="research" class="text-center mt-2 mb-0">Research</h4>
+<div class="row m-3 mt-4">
+
+  
+  <div class="col-md-6 col-lg-4 mb-4 d-flex">
+    <div class="wow animated fadeIn w-100" data-wow-delay=".15s">
+      <a href="https://danielwp22.github.io/papers-pdf/LCSF_MAPPO_LLM.pdf" class="project card text-themed h-100" target="_blank" rel="noopener">
+        <img class="card-img-top" src="/pics/llm_swarm.gif" alt="Language-Conditioned Swarm Formation with MAPPO and LLM Shape Generation" loading="lazy" style="aspect-ratio: 16/9; object-fit: cover;" />
+        <div class="card-body">
+          <h5 class="card-title">Language-Conditioned Swarm Formation with MAPPO and LLM Shape Generation</h5>
+          <p class="card-text">Combined MAPPO under centralized training with decentralized execution with LLM-generated coordinate targets for swarm formation control on a 64×64 grid, comparing circle-only, multi-shape, and random-target policies against CBS and evaluating GPT-4 and GPT-5.2 shape generation with CLIP scoring.
+</p>
+          <p class="card-text">
+            <span class="badge badge-pill text-secondary border border-secondary ml-1">April 2026</span>
+            <span class="badge badge-pill text-primary border border-primary ml-1">Paper</span>
+          </p>
+        </div>
+      </a>
+    </div>
+  </div>
+  
+  <div class="col-md-6 col-lg-4 mb-4 d-flex">
+    <div class="wow animated fadeIn w-100" data-wow-delay=".15s">
+      <a href="https://danielwp22.github.io/papers-pdf/BITMPDPaper.pdf" class="project card text-themed h-100" target="_blank" rel="noopener">
+        <img class="card-img-top" src="/pics/isaacgym-000.gif" alt="Sampling-Based vs. Learning-Based Planning: Comparing BIT* and Motion Planning Diffusion for 7-DOF Manipulation" loading="lazy" style="aspect-ratio: 16/9; object-fit: cover;" />
+        <div class="card-body">
+          <h5 class="card-title">Sampling-Based vs. Learning-Based Planning: Comparing BIT* and Motion Planning Diffusion for 7-DOF Manipulation</h5>
+          <p class="card-text">Compared BIT*, a traditional sampling-based planner, with Motion Planning Diffusion on a 7-DOF arm in Isaac Sim. Collected data and produced a technical paper analyzing path quality, planning time, and generalisation.
+</p>
+          <p class="card-text">
+            <span class="badge badge-pill text-secondary border border-secondary ml-1">December 2025</span>
+            <span class="badge badge-pill text-primary border border-primary ml-1">Paper</span>
+          </p>
+        </div>
+      </a>
+    </div>
+  </div>
+  
+  <div class="col-md-6 col-lg-4 mb-4 d-flex">
+    <div class="wow animated fadeIn w-100" data-wow-delay=".15s">
+      <a href="https://danielwp22.github.io/papers-pdf/Palin_UV_Celestial_Navigation_IEEE%20(2).pdf" class="project card text-themed h-100" target="_blank" rel="noopener">
+        <img class="card-img-top" src="/pics/IMG_3539 (2).gif" alt="UV-Based Celestial Navigation for Straight-Line Control in Outdoor Mobile Robots" loading="lazy" style="aspect-ratio: 16/9; object-fit: cover;" />
+        <div class="card-body">
+          <h5 class="card-title">UV-Based Celestial Navigation for Straight-Line Control in Outdoor Mobile Robots</h5>
+          <p class="card-text">Estimated heading from UV reading magnitude, similar to moths, and reduced mean horizontal path deviation by 48% compared to an open-loop baseline using proportional control on a real mobile robot.
+</p>
+          <p class="card-text">
+            <span class="badge badge-pill text-secondary border border-secondary ml-1">December 2025</span>
+            <span class="badge badge-pill text-primary border border-primary ml-1">Paper</span>
+          </p>
+        </div>
+      </a>
+    </div>
+  </div>
+  
+
+</div>
+
+<hr class="my-4" />
+
+<h4 id="projects" class="text-center mt-2 mb-0">Projects</h4>
+
+<div class="row m-3 mt-4">
+
+  <!-- Remote Projects -->
+  
+
+  <!-- Local Projects (sorted by date, newest first) -->
+  
+    <div class="col-md-6 col-lg-4 mb-4 d-flex">
+      <div class="wow animated fadeIn w-100" data-wow-delay=".15s">
+  <a href="/projects/1-so-101-smolvla" class="project card text-themed h-100"><img id="so-101-robot-arm-smolvla-img" class="card-img-top" src="/pics/vla_pap_optimized.gif" alt="SO-101 Robot Arm (SmolVLA)" loading="lazy" style="aspect-ratio: 16/9; object-fit: cover;" /><div class="card-body">
+      <h5 id="so-101-robot-arm-smolvla-name" class="card-title">SO-101 Robot Arm (SmolVLA)
+      </h5>
+      <p id="so-101-robot-arm-smolvla-desc" class="card-text">Built a SO-101 robot arm with custom 3D-printed parts and motors, then trained a SmolVLA policy from 250+ demonstrations to reach 95% autonomous pick-and-place success.
+</p>
+      <p id="so-101-robot-arm-smolvla-tools" class="card-text"><span class="badge badge-pill text-primary border border-primary ml-1">Robotics</span><span class="badge badge-pill text-primary border border-primary ml-1">3D Printing</span><span class="badge badge-pill text-primary border border-primary ml-1">SmolVLA</span><span class="badge badge-pill text-primary border border-primary ml-1">VLA</span><span class="badge badge-pill text-primary border border-primary ml-1">Data Collection</span></p>
+    </div>
+  </a>
+</div>
+
+    </div>
+
+  
+    <div class="col-md-6 col-lg-4 mb-4 d-flex">
+      <div class="wow animated fadeIn w-100" data-wow-delay=".15s">
+  <a href="https://github.com/qkrt-rm/qkrt-nav" class="project card text-themed h-100"><img id="autonomous-competition-robot-qkrt-img" class="card-img-top" src="/pics/qkrt_bot_2.png" alt="Autonomous Competition Robot (QKRT)" loading="lazy" style="aspect-ratio: 16/9; object-fit: cover;" /><div class="card-body">
+      <h5 id="autonomous-competition-robot-qkrt-name" class="card-title">Autonomous Competition Robot (QKRT)
+      </h5>
+      <p id="autonomous-competition-robot-qkrt-desc" class="card-text">Autonomous sentry robot for the ARC competition with a ROS 2 navigation stack fusing camera, LiDAR, IMU, and wheel encoder data, validated in Gazebo with SLAM, planning, and obstacle avoidance.
+</p>
+      <p id="autonomous-competition-robot-qkrt-tools" class="card-text"><span class="badge badge-pill text-primary border border-primary ml-1">ROS 2</span><span class="badge badge-pill text-primary border border-primary ml-1">SLAM</span><span class="badge badge-pill text-primary border border-primary ml-1">Navigation</span><span class="badge badge-pill text-primary border border-primary ml-1">Sensor Fusion</span><span class="badge badge-pill text-primary border border-primary ml-1">Gazebo</span></p>
+    </div>
+  </a>
+</div>
+
+    </div>
+
+  
+    <div class="col-md-6 col-lg-4 mb-4 d-flex">
+      <div class="wow animated fadeIn w-100" data-wow-delay=".15s">
+  <a href="https://github.com/danielwp22/knee-impairment-ppo" class="project card text-themed h-100"><img id="knee-impairment-rl-gait-policy-img" class="card-img-top" src="/pics/PPO_gait_improvement.gif" alt="Knee-Impairment RL Gait Policy" loading="lazy" style="aspect-ratio: 16/9; object-fit: cover;" /><div class="card-body">
+      <h5 id="knee-impairment-rl-gait-policy-name" class="card-title">Knee-Impairment RL Gait Policy
+      </h5>
+      <p id="knee-impairment-rl-gait-policy-desc" class="card-text">This project is a small, targeted modification to NVIDIA Isaac Lab’s Unitree H1 locomotion task to simulate a gait impairment via reduced knee flexion range-of-motion (ROM) and train a policy that can still walk stably under that constraint using PPO
+</p>
+      <p id="knee-impairment-rl-gait-policy-tools" class="card-text"><span class="badge badge-pill text-primary border border-primary ml-1">Reinforcement Learning</span><span class="badge badge-pill text-primary border border-primary ml-1">PPO</span><span class="badge badge-pill text-primary border border-primary ml-1">NVIDIA Isaac Lab</span><span class="badge badge-pill text-primary border border-primary ml-1">Robotics</span><span class="badge badge-pill text-primary border border-primary ml-1">Simulation</span></p>
+    </div>
+  </a>
+</div>
+
+    </div>
+
+  
+    
+    
+    <div class="col-md-6 col-lg-4 mb-4 d-flex">
+      <div class="wow animated fadeIn w-100" data-wow-delay=".15s">
+  <a href="https://github.com/danielwp22/diffusion-pick-and-place" class="project card text-themed h-100"><img id="diffusion-based-6-dof-pick-and-place-robot-img" class="card-img-top" src="/pics/diffusion.gif" alt="Diffusion-Based 6-DoF Pick-and-Place Robot" loading="lazy" style="aspect-ratio: 16/9; object-fit: cover;" /><div class="card-body">
+      <h5 id="diffusion-based-6-dof-pick-and-place-robot-name" class="card-title">Diffusion-Based 6-DoF Pick-and-Place Robot
+      </h5>
+      <p id="diffusion-based-6-dof-pick-and-place-robot-desc" class="card-text">A diffusion-based robotic manipulation system that uses a U-Net policy to generate smooth 6-DoF pick-and-place actions. Built on Google’s Ravens framework, the model learns from expert demonstrations to perform precise grasping and placement through iterative denoising and trajectory sampling.
+</p>
+      <p id="diffusion-based-6-dof-pick-and-place-robot-tools" class="card-text"><span class="badge badge-pill text-primary border border-primary ml-1">Python</span><span class="badge badge-pill text-primary border border-primary ml-1">PyTorch</span><span class="badge badge-pill text-primary border border-primary ml-1">Diffusion Models</span><span class="badge badge-pill text-primary border border-primary ml-1">U-Net</span><span class="badge badge-pill text-primary border border-primary ml-1">Ravens Framework</span><span class="badge badge-pill text-primary border border-primary ml-1">6-DoF Robot Arm</span></p>
+    </div>
+  </a>
+</div>
+
+    </div>
+
+  
+    <div class="col-md-6 col-lg-4 mb-4 d-flex">
+      <div class="wow animated fadeIn w-100" data-wow-delay=".15s">
+  <a href="https://github.com/danielwp22/imitation-learning-locomotion" class="project card text-themed h-100"><img id="imitation-learning-for-walking-robots-behavioral-cloning-dagger-mujoco-img" class="card-img-top" src="/pics/antwalkingshort2_optimized.gif" alt="Imitation Learning for Walking Robots (Behavioral Cloning &amp; DAgger, MuJoCo)" loading="lazy" style="aspect-ratio: 16/9; object-fit: cover;" /><div class="card-body">
+      <h5 id="imitation-learning-for-walking-robots-behavioral-cloning-dagger-mujoco-name" class="card-title">Imitation Learning for Walking Robots (Behavioral Cloning &amp; DAgger, MuJoCo)
+      </h5>
+      <p id="imitation-learning-for-walking-robots-behavioral-cloning-dagger-mujoco-desc" class="card-text">Two MuJoCo walking agents, Ant and 2D Walker, were trained to perform locomotion using both Behavioural Cloning and DAgger cloning using provided expert policies.</p>
+      <p id="imitation-learning-for-walking-robots-behavioral-cloning-dagger-mujoco-tools" class="card-text"><span class="badge badge-pill text-primary border border-primary ml-1">Python</span><span class="badge badge-pill text-primary border border-primary ml-1">Imitation Learning</span><span class="badge badge-pill text-primary border border-primary ml-1">Deep Learning</span><span class="badge badge-pill text-primary border border-primary ml-1">MuJoCo sim</span></p>
+    </div>
+  </a>
+</div>
+
+    </div>
+
+  
+    <div class="col-md-6 col-lg-4 mb-4 d-flex">
+      <div class="wow animated fadeIn w-100" data-wow-delay=".15s">
+  <a href="https://github.com/danielwp22/ros2-navigation-bot" class="project card text-themed h-100"><img id="autonomous-slam-robot-with-lidar-and-2-wheel-drive-img" class="card-img-top" src="/pics/IMG_2170.jpg" alt="Autonomous SLAM Robot with LiDAR and 2-Wheel Drive" loading="lazy" style="aspect-ratio: 16/9; object-fit: cover;" /><div class="card-body">
+      <h5 id="autonomous-slam-robot-with-lidar-and-2-wheel-drive-name" class="card-title">Autonomous SLAM Robot with LiDAR and 2-Wheel Drive
+      </h5>
+      <p id="autonomous-slam-robot-with-lidar-and-2-wheel-drive-desc" class="card-text">A custom-built autonomous robot that uses SLAM (Simultaneous Localization and Mapping) and LiDAR to navigate and map its environment. The robot is a 2-wheel differential drive system running on ROS 2, with real-time mapping and basic autonomous navigation functionality.
+</p>
+      <p id="autonomous-slam-robot-with-lidar-and-2-wheel-drive-tools" class="card-text"><span class="badge badge-pill text-primary border border-primary ml-1">ROS 2</span><span class="badge badge-pill text-primary border border-primary ml-1">Arduino Nano</span><span class="badge badge-pill text-primary border border-primary ml-1">Raspberry Pi 5</span><span class="badge badge-pill text-primary border border-primary ml-1">3D Printing</span><span class="badge badge-pill text-primary border border-primary ml-1">Gazebo</span></p>
+    </div>
+  </a>
+</div>
+
+    </div>
+
+  
+    <div class="col-md-6 col-lg-4 mb-4 d-flex">
+      <div class="wow animated fadeIn w-100" data-wow-delay=".15s">
+  <a href="https://github.com/danielwp22/blackjack-rl-agent" class="project card text-themed h-100"><img id="blackjack-bot-using-deep-q-learning-img" class="card-img-top" src="/pics/blackjackgraph.png" alt="Blackjack Bot using Deep Q-Learning" loading="lazy" style="aspect-ratio: 16/9; object-fit: cover;" /><div class="card-body">
+      <h5 id="blackjack-bot-using-deep-q-learning-name" class="card-title">Blackjack Bot using Deep Q-Learning
+      </h5>
+      <p id="blackjack-bot-using-deep-q-learning-desc" class="card-text">This project implements both Q-learning and Deep Q-Learning (DQN) algorithms to train agents to play Blackjack using environments from Gymnasium (OpenAI's Gym fork). The goal is to develop an agent that can beat the house and consistently win games using reinforcement learning.
+</p>
+      <p id="blackjack-bot-using-deep-q-learning-tools" class="card-text"><span class="badge badge-pill text-primary border border-primary ml-1">PyTorch</span><span class="badge badge-pill text-primary border border-primary ml-1">Python</span><span class="badge badge-pill text-primary border border-primary ml-1">Neural Networks</span><span class="badge badge-pill text-primary border border-primary ml-1">OpenAI Gym</span><span class="badge badge-pill text-primary border border-primary ml-1">Deep Learning</span><span class="badge badge-pill text-primary border border-primary ml-1">Q-Learning</span></p>
+    </div>
+  </a>
+</div>
+
+    </div>
+
+  
+    <div class="col-md-6 col-lg-4 mb-4 d-flex">
+      <div class="wow animated fadeIn w-100" data-wow-delay=".15s">
+  <a href="https://github.com/danielwp22/3dof_robot_arm" class="project card text-themed h-100"><img id="3-dof-robotic-arm-arduino-ros2-moveit-img" class="card-img-top" src="/pics/3dofarm.jpeg" alt="3-DOF Robotic Arm (Arduino, ROS2, MoveIt)" loading="lazy" style="aspect-ratio: 16/9; object-fit: cover;" /><div class="card-body">
+      <h5 id="3-dof-robotic-arm-arduino-ros2-moveit-name" class="card-title">3-DOF Robotic Arm (Arduino, ROS2, MoveIt)
+      </h5>
+      <p id="3-dof-robotic-arm-arduino-ros2-moveit-desc" class="card-text">This project is a 3-DOF manipulator using Arduino for servo actuation and hardware control. It uses ROS2 MoveIt teleoperation for kinematics and trajectory planning both in simulation and real-world.</p>
+      <p id="3-dof-robotic-arm-arduino-ros2-moveit-tools" class="card-text"><span class="badge badge-pill text-primary border border-primary ml-1">ROS 2</span><span class="badge badge-pill text-primary border border-primary ml-1">MoveIt</span><span class="badge badge-pill text-primary border border-primary ml-1">Arduino</span><span class="badge badge-pill text-primary border border-primary ml-1">Python</span><span class="badge badge-pill text-primary border border-primary ml-1">3D Printing</span></p>
+    </div>
+  </a>
+</div>
+
+    </div>
+
+  
+    <div class="col-md-6 col-lg-4 mb-4 d-flex">
+      <div class="wow animated fadeIn w-100" data-wow-delay=".15s">
+  <a href="https://github.com/danielwp22/smart-intercom" class="project card text-themed h-100"><img id="smart-door-intercom-img" class="card-img-top" src="/pics/intercom.png" alt="Smart Door Intercom" loading="lazy" style="aspect-ratio: 16/9; object-fit: cover;" /><div class="card-body">
+      <h5 id="smart-door-intercom-name" class="card-title">Smart Door Intercom
+      </h5>
+      <p id="smart-door-intercom-desc" class="card-text">A smart door intercom that uses a Pi Camera to capture visitor photos and send them to Telegram for remote approval. Linked an Arduino via serial so user replies directly actuated a servo motor to unlock the door.</p>
+      <p id="smart-door-intercom-tools" class="card-text"><span class="badge badge-pill text-primary border border-primary ml-1">Raspberry Pi 5</span><span class="badge badge-pill text-primary border border-primary ml-1">Arduino</span><span class="badge badge-pill text-primary border border-primary ml-1">IoT</span><span class="badge badge-pill text-primary border border-primary ml-1">Python</span></p>
+    </div>
+  </a>
+</div>
+
+    </div>
+
+  
+    <div class="col-md-6 col-lg-4 mb-4 d-flex">
+      <div class="wow animated fadeIn w-100" data-wow-delay=".15s">
+  <a href="https://github.com/danielwp22/four-leaf-clover-classification" class="project card text-themed h-100"><img id="four-leaf-clover-classifier-resnet18-pytorch-img" class="card-img-top" src="/pics/clover-field_full_width.jpg" alt="Four-Leaf Clover Classifier (ResNet18 + PyTorch)" loading="lazy" style="aspect-ratio: 16/9; object-fit: cover;" /><div class="card-body">
+      <h5 id="four-leaf-clover-classifier-resnet18-pytorch-name" class="card-title">Four-Leaf Clover Classifier (ResNet18 + PyTorch)
+      </h5>
+      <p id="four-leaf-clover-classifier-resnet18-pytorch-desc" class="card-text">This project is a deep learning image classifier designed to distinguish between 3-leaf and 4-leaf white clovers using a self-collected dataset and a ResNet18 architecture. It demonstrates how data augmentation and transfer learning can be used to train models on small, real-world datasets.
+</p>
+      <p id="four-leaf-clover-classifier-resnet18-pytorch-tools" class="card-text"><span class="badge badge-pill text-primary border border-primary ml-1">PyTorch</span><span class="badge badge-pill text-primary border border-primary ml-1">OpenCV</span><span class="badge badge-pill text-primary border border-primary ml-1">Python</span><span class="badge badge-pill text-primary border border-primary ml-1">CNNs</span><span class="badge badge-pill text-primary border border-primary ml-1">Machine Learning</span></p>
+    </div>
+  </a>
+</div>
+
+    </div>
+
+  
+    <div class="col-md-6 col-lg-4 mb-4 d-flex">
+      <div class="wow animated fadeIn w-100" data-wow-delay=".15s">
+  <a href="https://github.com/danielwp22/cracked-concrete-classifier/" class="project card text-themed h-100"><img id="cracked-concrete-classifier-resnet18-pytorch-img" class="card-img-top" src="/pics/crack-floor-scaled.jpeg" alt="Cracked Concrete Classifier (ResNet18 + PyTorch)" loading="lazy" style="aspect-ratio: 16/9; object-fit: cover;" /><div class="card-body">
+      <h5 id="cracked-concrete-classifier-resnet18-pytorch-name" class="card-title">Cracked Concrete Classifier (ResNet18 + PyTorch)
+      </h5>
+      <p id="cracked-concrete-classifier-resnet18-pytorch-desc" class="card-text">This project is a deep learning model that classifies cracked and uncracked concrete images using a ResNet-based architecture. It leverages an open dataset to achieve high classification accuracy.</p>
+      <p id="cracked-concrete-classifier-resnet18-pytorch-tools" class="card-text"><span class="badge badge-pill text-primary border border-primary ml-1">Machine Learning</span><span class="badge badge-pill text-primary border border-primary ml-1">PyTorch</span><span class="badge badge-pill text-primary border border-primary ml-1">Python</span><span class="badge badge-pill text-primary border border-primary ml-1">Neural Networks</span></p>
+    </div>
+  </a>
+</div>
+
+    </div>
+
+  
+    <div class="col-md-6 col-lg-4 mb-4 d-flex">
+      <div class="wow animated fadeIn w-100" data-wow-delay=".15s">
+  <a href="https://github.com/danielwp22/rain-prediction" class="project card text-themed h-100"><img id="rainfall-prediction-using-machine-learning-img" class="card-img-top" src="/pics/rainfall.jpg" alt="Rainfall Prediction using Machine Learning" loading="lazy" style="aspect-ratio: 16/9; object-fit: cover;" /><div class="card-body">
+      <h5 id="rainfall-prediction-using-machine-learning-name" class="card-title">Rainfall Prediction using Machine Learning
+      </h5>
+      <p id="rainfall-prediction-using-machine-learning-desc" class="card-text">This project predicts rainfall using machine learning models trained on weather data from the Australian Bureau of Meteorology. The pipeline includes preprocessing, feature selection, and model training.</p>
+      <p id="rainfall-prediction-using-machine-learning-tools" class="card-text"><span class="badge badge-pill text-primary border border-primary ml-1">Scikit learn</span><span class="badge badge-pill text-primary border border-primary ml-1">Python</span><span class="badge badge-pill text-primary border border-primary ml-1">Machine Learning</span></p>
+    </div>
+  </a>
+</div>
+
+    </div>
+
+  
+
+</div>
+
 
   </main>
   <footer class="mt-auto py-3 text-center">
@@ -96,26 +426,7 @@
   <small class="text-muted mb-2">
     <i class="fas fa-code"></i> with <i class="fas fa-heart"></i>
     by <strong>Daniel</strong>
-  </small>
-
-  <div class="container-fluid justify-content-center"><a class="social mx-1"  href="mailto:daniel.palin@mail.utoronto.ca"
-       style="color: #6c757d"
-       onMouseOver="this.style.color='#db4437'"
-       onMouseOut="this.style.color='#6c757d'">
-      <i class="fas fa-envelope fa-1x"></i>
-    </a><a class="social mx-1"  href="https://www.github.com/danielwp22"
-       style="color: #6c757d"
-       onMouseOver="this.style.color='#333333'"
-       onMouseOut="this.style.color='#6c757d'">
-      <i class="fab fa-github fa-1x"></i>
-    </a><a class="social mx-1"  href="https://www.linkedin.com/in/daniel-w-palin"
-       style="color: #6c757d"
-       onMouseOver="this.style.color='#007bb5'"
-       onMouseOut="this.style.color='#6c757d'">
-      <i class="fab fa-linkedin-in fa-1x"></i>
-    </a>
-
-</div><small id="attribution">
+  </small><small id="attribution">
     theme <a href="https://github.com/yousinix/portfolYOU">portfolYOU</a>
   </small>
 

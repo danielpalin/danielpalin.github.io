@@ -21,11 +21,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <meta property="og:type" content="website">
-  <meta property="og:title" content="About">
+  <meta property="og:title" content="About Me">
   <meta property="og:description" content="I build robots that think, move, and occasionally bump into furniture.">
   <meta property="og:image" content="/pics/ingenuity2.png">
 
-  <title>About</title>
+  <title>About Me</title>
   <meta name="description" content="I build robots that think, move, and occasionally bump into furniture.">
 
   <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon2.ico">
@@ -34,7 +34,7 @@
   <script src="/assets/js/theme.js"></script>
 
   <!-- Font Awesome CDN -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
   <!-- Bootstrap CSS CDN -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
@@ -50,8 +50,9 @@
 
 <body class="h-100 d-flex flex-column">
 
-  <main class="flex-shrink-0 container mt-5">
-    <nav class="navbar navbar-expand-lg navbar-themed">
+  <div class="fixed-top navbar-sticky-bg">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-themed">
 
   <a class="navbar-brand" href="/"><h5><b>Daniel Palin</b></h5></a>
 
@@ -63,23 +64,28 @@
     <div class="navbar-nav ml-auto">
 <a class="nav-item nav-link active" href="/"></a>
 
-      <a class="nav-item nav-link " href="/projects/">Projects</a>
-
-      <a class="nav-item nav-link active" href="/about/">About</a>
-
       
+
+      <a class="nav-item nav-link" href="/#about">About</a>
+      <a class="nav-item nav-link" href="/#updates">Updates</a>
+      <a class="nav-item nav-link" href="/#research">Research</a>
+      <a class="nav-item nav-link" href="/#projects">Projects</a>
 
       <span id="theme-toggler" class="nav-item nav-link" role="button" onclick="toggleTheme()"></span>
     </div>
   </div>
 
 </nav>
+    </div>
+  </div>
+
+  <main class="flex-shrink-0 container" style="padding-top: 4.5rem;">
     <div class="col-lg-10 mx-auto mt-5 markdown-body">
   <h1 id="about-me"><strong>About Me</strong></h1>
 
 <p>Hi I am <strong>Daniel</strong> <img class="emoji" title=":wave:" alt=":wave:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f44b.png" height="20" width="20">,<br>
 I’m a student about to go into my masters who has a passion for autonomous robotics. I’ve been self studying reinforcement learning and working on physical ROS 2 based robotics projects, with the hope of one day contributing to autonomous humanoid robots deployed in homes.
-<a href="https://danielwp22.github.io/papers-pdf/daniel_palin_resume_git.pdf">View my resume here.</a></p>
+<a href="https://danielwp22.github.io/papers-pdf/daniel_palin_resume_june.pdf">View my resume here.</a></p>
 
 <div class="row">
 <div class="col-lg">
@@ -124,17 +130,25 @@ I’m a student about to go into my masters who has a passion for autonomous rob
     
       <div class="timeline-item">
         <div class="content">
-          <h2>Mechanical Engineering Masters, Queen's University</h2>
-          <h6 class="date">2025 — present</h6>
-          <p>Pursuing a Mechanical and Materials Engineering MEng Masters at Queen's University that started in Fall 2025. My goal is to create strong robotics projects.</p>
+          <h2>Robotics Engineer Intern, Mbodi AI</h2>
+          <h6 class="date">May 2026 — present</h6>
+          <p>Implementing a controls system into an AI software stack for bimanual pick-and-place in manufacturing.</p>
         </div>
       </div>
     
       <div class="timeline-item">
         <div class="content">
-          <h2>Undergraduate, UofT Physics</h2>
+          <h2>MEng Mechanical and Materials Engineering, Queen's University</h2>
+          <h6 class="date">2025 — present</h6>
+          <p>Mechanical and Materials Engineering master's student. Maintaining a 4.3/4.3 GPA and serving as technical lead for the autonomous navigation team on the Queen's Knights Robotics Team.</p>
+        </div>
+      </div>
+    
+      <div class="timeline-item">
+        <div class="content">
+          <h2>BSc Physics, University of Toronto</h2>
           <h6 class="date">2021 — 2025</h6>
-          <p>Graduated from University of Toronto with an  Major in Physics and a Minor in Chemistry and Education Studies.</p>
+          <p>Graduated with a major in Physics and minors in Chemistry and Education Studies.</p>
         </div>
       </div>
     
@@ -149,19 +163,7 @@ I’m a student about to go into my masters who has a passion for autonomous rob
   <small class="text-muted mb-2">
     <i class="fas fa-code"></i> with <i class="fas fa-heart"></i>
     by <strong>Daniel</strong>
-  </small>
-
-  <div class="container-fluid justify-content-center">
-<a class="social mx-1" href="mailto:daniel.palin@mail.utoronto.ca" style="color: #6c757d" onmouseover="this.style.color='#db4437'" onmouseout="this.style.color='#6c757d'">
-      <i class="fas fa-envelope fa-1x"></i>
-    </a><a class="social mx-1" href="https://www.github.com/danielwp22" style="color: #6c757d" onmouseover="this.style.color='#333333'" onmouseout="this.style.color='#6c757d'">
-      <i class="fab fa-github fa-1x"></i>
-    </a><a class="social mx-1" href="https://www.linkedin.com/in/daniel-w-palin" style="color: #6c757d" onmouseover="this.style.color='#007bb5'" onmouseout="this.style.color='#6c757d'">
-      <i class="fab fa-linkedin-in fa-1x"></i>
-    </a>
-
-</div>
-<small id="attribution">
+  </small><small id="attribution">
     theme <a href="https://github.com/yousinix/portfolYOU">portfolYOU</a>
   </small>
 

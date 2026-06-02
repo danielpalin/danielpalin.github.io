@@ -1,5 +1,6 @@
 ---
 name: Autonomous SLAM Robot with LiDAR and 2-Wheel Drive
+date: 2025-07-01
 tools: [ROS 2, Arduino Nano, Raspberry Pi 5, 3D Printing, Gazebo]
 image: /pics/IMG_2170.jpg 
 description: >

@@ -1,0 +1,27 @@
+- title: "Language-Conditioned Swarm Formation with MAPPO and LLM Shape Generation"
+  date: "April 2026"
+  image: /pics/llm_swarm.gif
+  url: https://danielwp22.github.io/papers-pdf/LCSF_MAPPO_LLM.pdf
+  description: >
+    Combined MAPPO under centralized training with decentralized execution with
+    LLM-generated coordinate targets for swarm formation control on a 64×64 grid,
+    comparing circle-only, multi-shape, and random-target policies against CBS and
+    evaluating GPT-4 and GPT-5.2 shape generation with CLIP scoring.
+
+- title: "Sampling-Based vs. Learning-Based Planning: Comparing BIT* and Motion Planning Diffusion for 7-DOF Manipulation"
+  date: "December 2025"
+  image: /pics/isaacgym-000.gif
+  url: https://danielwp22.github.io/papers-pdf/BITMPDPaper.pdf
+  description: >
+    Compared BIT*, a traditional sampling-based planner, with Motion Planning
+    Diffusion on a 7-DOF arm in Isaac Sim. Collected data and produced a technical
+    paper analyzing path quality, planning time, and generalisation.
+
+- title: "UV-Based Celestial Navigation for Straight-Line Control in Outdoor Mobile Robots"
+  date: "December 2025"
+  image: /pics/IMG_3539 (2).gif
+  url: https://danielwp22.github.io/papers-pdf/Palin_UV_Celestial_Navigation_IEEE%20(2).pdf
+  description: >
+    Estimated heading from UV reading magnitude, similar to moths, and reduced mean
+    horizontal path deviation by 48% compared to an open-loop baseline using
+    proportional control on a real mobile robot.

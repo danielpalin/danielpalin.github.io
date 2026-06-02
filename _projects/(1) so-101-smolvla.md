@@ -1,5 +1,6 @@
 ---
 name: SO-101 Robot Arm (SmolVLA)
+date: 2026-04-01
 tools: [Robotics, 3D Printing, SmolVLA, VLA, Data Collection]
 image: /pics/vla_pap_optimized.gif
 description: >

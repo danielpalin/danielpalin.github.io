@@ -1,5 +1,6 @@
 ---
 name: Diffusion-Based 6-DoF Pick-and-Place Robot
+date: 2025-11-01
 tools: [Python, PyTorch, Diffusion Models, U-Net, Ravens Framework, 6-DoF Robot Arm]
 image: /pics/diffusion.gif
 description: >
